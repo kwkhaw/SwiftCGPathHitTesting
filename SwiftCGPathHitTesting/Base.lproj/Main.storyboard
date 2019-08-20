@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SwiftCGPathHitTesting" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZZD-9g-TO6" userLabel="Drawing View" customClass="DrawingView" customModule="SwiftCGPathHitTesting" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uHs-1Q-Kcc">
+                                <rect key="frame" x="0.0" y="20" width="768" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="tgE-tq-QW9"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Tap or Drag Shapes" id="rTy-xP-U5M">
+                                        <barButtonItem key="leftBarButtonItem" title="Add Random Shape" id="snT-Ez-HKg">
+                                            <connections>
+                                                <action selector="addButtonTapped:" destination="BYZ-38-t0r" id="41H-cf-N3L"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" enabled="NO" title="Delete Selected Shape" id="dPD-jl-6bE">
+                                            <connections>
+                                                <action selector="deleteButtonTapped:" destination="BYZ-38-t0r" id="xdb-R9-ks4"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="uHs-1Q-Kcc" firstAttribute="trailing" secondItem="ZZD-9g-TO6" secondAttribute="trailing" id="Nuj-aD-rjY"/>
+                            <constraint firstItem="uHs-1Q-Kcc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="TAg-Zn-lzr"/>
+                            <constraint firstItem="ZZD-9g-TO6" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="jfJ-n4-dEh"/>
+                            <constraint firstItem="ZZD-9g-TO6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qCM-oK-s7h"/>
+                            <constraint firstItem="ZZD-9g-TO6" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="qmX-Xl-OSI"/>
+                            <constraint firstItem="ZZD-9g-TO6" firstAttribute="top" secondItem="uHs-1Q-Kcc" secondAttribute="bottom" id="vIV-eU-I3X"/>
+                            <constraint firstItem="uHs-1Q-Kcc" firstAttribute="leading" secondItem="ZZD-9g-TO6" secondAttribute="leading" id="wRO-d4-Uvx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="deleteShapeButton" destination="dPD-jl-6bE" id="HIu-X4-gyO"/>
+                        <outlet property="drawingView" destination="ZZD-9g-TO6" id="tqG-Fh-hF5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-527" y="49"/>
+        </scene>
+    </scenes>
+</document>
