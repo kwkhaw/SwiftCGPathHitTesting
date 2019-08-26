@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		094404C9A488BA8FA9EC53F3258293E9 /* Pods-SwiftCGPathHitTesting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6027548179DE7B598C83A8138FB69F6C /* Pods-SwiftCGPathHitTesting-dummy.m */; };
+		8344F0B34A66A20330826FF589010999 /* FPSCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BF2F2C2B954517C9B2E5BAC2F516B8 /* FPSCounter.swift */; };
+		8DE038D8CE0B69E195858EE344D34981 /* Pods-SwiftCGPathHitTesting-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 534FED58BB95CE9953BC3CA3CB796113 /* Pods-SwiftCGPathHitTesting-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95B4031324690089DE130B009061E034 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		9767AFE6C7BA83E3040DD604FBEEC82A /* FPSStatusBarWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52DD2A9033ACA6EB52BA5EE49C42F24 /* FPSStatusBarWindow.swift */; };
+		A27CD06ADB9ADF6B15FCF78661D00F11 /* FPSCounter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F4515B2750075F47962DADC1C501A2 /* FPSCounter-dummy.m */; };
+		B46C156EBCBD8FB1A701769210B69CFD /* FPSCounter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C9E5B489469682437018C38B63D198F /* FPSCounter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B93B53D631EC36FABBBDCBF5B5A2E425 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		C472BB5393B8F87D1B6E5E30BD28395C /* FPSStatusBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEEEE68B34A08D06CAB277AAD5E03DD /* FPSStatusBarViewController.swift */; };
+		D972DA04F1CC04D7C2398863DCCD7651 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		E37253D70F1AF3BF342A221CD465DC79 /* FPSCounter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B4F410B372386318ACFBA42C55C5C84 /* FPSCounter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66BE355D18B8D7D514CB50F03F158B58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 161E8ACDC0C940AF4EFB36E8BA6B82AC;
+			remoteInfo = FPSCounter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F1888CDE1A54585E7319F5B0BF10C83 /* FPSCounter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FPSCounter.xcconfig; sourceTree = "<group>"; };
+		1641AA7EF7EFD331ECDE812490D9043E /* Pods-SwiftCGPathHitTesting-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftCGPathHitTesting-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1B9E02BC3BBC10AFE9C2AEDBBF4CAECA /* Pods-SwiftCGPathHitTesting.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftCGPathHitTesting.modulemap"; sourceTree = "<group>"; };
+		1C9E5B489469682437018C38B63D198F /* FPSCounter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FPSCounter.h; path = Sources/FPSCounter.h; sourceTree = "<group>"; };
+		2B19D075A018319515729BF54E148DB5 /* FPSCounter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FPSCounter.framework; path = FPSCounter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		534FED58BB95CE9953BC3CA3CB796113 /* Pods-SwiftCGPathHitTesting-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftCGPathHitTesting-umbrella.h"; sourceTree = "<group>"; };
+		5EBEEFE798D04C0C476EABF4231734D9 /* FPSCounter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FPSCounter-Info.plist"; sourceTree = "<group>"; };
+		6027548179DE7B598C83A8138FB69F6C /* Pods-SwiftCGPathHitTesting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftCGPathHitTesting-dummy.m"; sourceTree = "<group>"; };
+		6B5D9068212E81955E3122028288B46F /* Pods-SwiftCGPathHitTesting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftCGPathHitTesting.debug.xcconfig"; sourceTree = "<group>"; };
+		6C282347F64D75150BE724157CDA2108 /* Pods-SwiftCGPathHitTesting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftCGPathHitTesting.release.xcconfig"; sourceTree = "<group>"; };
+		6DEEEE68B34A08D06CAB277AAD5E03DD /* FPSStatusBarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPSStatusBarViewController.swift; path = Sources/FPSStatusBarViewController.swift; sourceTree = "<group>"; };
+		70BF2F2C2B954517C9B2E5BAC2F516B8 /* FPSCounter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPSCounter.swift; path = Sources/FPSCounter.swift; sourceTree = "<group>"; };
+		8B4F410B372386318ACFBA42C55C5C84 /* FPSCounter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FPSCounter-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5933183A1DBF0A278B2646E5451C9C8 /* Pods-SwiftCGPathHitTesting-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftCGPathHitTesting-frameworks.sh"; sourceTree = "<group>"; };
+		AF22FA5690C4F0ABBD32AD252E06EA33 /* FPSCounter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FPSCounter-prefix.pch"; sourceTree = "<group>"; };
+		C67331C5F563984732C47AC2717D3D69 /* Pods_SwiftCGPathHitTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftCGPathHitTesting.framework; path = "Pods-SwiftCGPathHitTesting.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB757D90D04182510BA235F8F42B6527 /* Pods-SwiftCGPathHitTesting-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftCGPathHitTesting-acknowledgements.plist"; sourceTree = "<group>"; };
+		E92300B42FC6095659DFB25DF7B96E9C /* FPSCounter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FPSCounter.modulemap; sourceTree = "<group>"; };
+		ECCAB15BFC7631C9F510264A9A6A056F /* Pods-SwiftCGPathHitTesting-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftCGPathHitTesting-Info.plist"; sourceTree = "<group>"; };
+		F52DD2A9033ACA6EB52BA5EE49C42F24 /* FPSStatusBarWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPSStatusBarWindow.swift; path = Sources/FPSStatusBarWindow.swift; sourceTree = "<group>"; };
+		F7F4515B2750075F47962DADC1C501A2 /* FPSCounter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FPSCounter-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19659811FC74D34F229C1E8A2274E14D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B93B53D631EC36FABBBDCBF5B5A2E425 /* Foundation.framework in Frameworks */,
+				95B4031324690089DE130B009061E034 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF67E1D529047947ABFCFBBAD3FBD033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D972DA04F1CC04D7C2398863DCCD7651 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AD5A7FC39E7B824286420D79B9C0458 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B19D075A018319515729BF54E148DB5 /* FPSCounter.framework */,
+				C67331C5F563984732C47AC2717D3D69 /* Pods_SwiftCGPathHitTesting.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3EACBFDB306704C0EF69CCB73DD530ED /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E92300B42FC6095659DFB25DF7B96E9C /* FPSCounter.modulemap */,
+				0F1888CDE1A54585E7319F5B0BF10C83 /* FPSCounter.xcconfig */,
+				F7F4515B2750075F47962DADC1C501A2 /* FPSCounter-dummy.m */,
+				5EBEEFE798D04C0C476EABF4231734D9 /* FPSCounter-Info.plist */,
+				AF22FA5690C4F0ABBD32AD252E06EA33 /* FPSCounter-prefix.pch */,
+				8B4F410B372386318ACFBA42C55C5C84 /* FPSCounter-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FPSCounter";
+			sourceTree = "<group>";
+		};
+		5FDC333EFCD93A10BD50CEF23C97F79F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A378BB3AFCDB17FB1EE31CB39C34F789 /* FPSCounter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		85379D1FB7CBEBE75DBA2E730F2DF45A /* Pods-SwiftCGPathHitTesting */ = {
+			isa = PBXGroup;
+			children = (
+				1B9E02BC3BBC10AFE9C2AEDBBF4CAECA /* Pods-SwiftCGPathHitTesting.modulemap */,
+				1641AA7EF7EFD331ECDE812490D9043E /* Pods-SwiftCGPathHitTesting-acknowledgements.markdown */,
+				CB757D90D04182510BA235F8F42B6527 /* Pods-SwiftCGPathHitTesting-acknowledgements.plist */,
+				6027548179DE7B598C83A8138FB69F6C /* Pods-SwiftCGPathHitTesting-dummy.m */,
+				A5933183A1DBF0A278B2646E5451C9C8 /* Pods-SwiftCGPathHitTesting-frameworks.sh */,
+				ECCAB15BFC7631C9F510264A9A6A056F /* Pods-SwiftCGPathHitTesting-Info.plist */,
+				534FED58BB95CE9953BC3CA3CB796113 /* Pods-SwiftCGPathHitTesting-umbrella.h */,
+				6B5D9068212E81955E3122028288B46F /* Pods-SwiftCGPathHitTesting.debug.xcconfig */,
+				6C282347F64D75150BE724157CDA2108 /* Pods-SwiftCGPathHitTesting.release.xcconfig */,
+			);
+			name = "Pods-SwiftCGPathHitTesting";
+			path = "Target Support Files/Pods-SwiftCGPathHitTesting";
+			sourceTree = "<group>";
+		};
+		A378BB3AFCDB17FB1EE31CB39C34F789 /* FPSCounter */ = {
+			isa = PBXGroup;
+			children = (
+				1C9E5B489469682437018C38B63D198F /* FPSCounter.h */,
+				70BF2F2C2B954517C9B2E5BAC2F516B8 /* FPSCounter.swift */,
+				6DEEEE68B34A08D06CAB277AAD5E03DD /* FPSStatusBarViewController.swift */,
+				F52DD2A9033ACA6EB52BA5EE49C42F24 /* FPSStatusBarWindow.swift */,
+				3EACBFDB306704C0EF69CCB73DD530ED /* Support Files */,
+			);
+			name = FPSCounter;
+			path = FPSCounter;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				5FDC333EFCD93A10BD50CEF23C97F79F /* Pods */,
+				0AD5A7FC39E7B824286420D79B9C0458 /* Products */,
+				EAD93223F1439C16693D6E9C590BF26F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EAD93223F1439C16693D6E9C590BF26F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				85379D1FB7CBEBE75DBA2E730F2DF45A /* Pods-SwiftCGPathHitTesting */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		716D53623171EF8D7879996D85D5C245 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE038D8CE0B69E195858EE344D34981 /* Pods-SwiftCGPathHitTesting-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE36B515545D6153C5A56A0DAFD92DA1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E37253D70F1AF3BF342A221CD465DC79 /* FPSCounter-umbrella.h in Headers */,
+				B46C156EBCBD8FB1A701769210B69CFD /* FPSCounter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		161E8ACDC0C940AF4EFB36E8BA6B82AC /* FPSCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7295B696CF2E2C6024E4AAFFA0537BD8 /* Build configuration list for PBXNativeTarget "FPSCounter" */;
+			buildPhases = (
+				DE36B515545D6153C5A56A0DAFD92DA1 /* Headers */,
+				90D80418732B99B42BE72A48309250F5 /* Sources */,
+				19659811FC74D34F229C1E8A2274E14D /* Frameworks */,
+				2B502E4324961FCCCD6CFF65EE026271 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FPSCounter;
+			productName = FPSCounter;
+			productReference = 2B19D075A018319515729BF54E148DB5 /* FPSCounter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5FC3FF1807D82DFDE931BB5990CFCB53 /* Pods-SwiftCGPathHitTesting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28746DF9BED521AC83AF03A3FCA5C935 /* Build configuration list for PBXNativeTarget "Pods-SwiftCGPathHitTesting" */;
+			buildPhases = (
+				716D53623171EF8D7879996D85D5C245 /* Headers */,
+				7A5159CDCE475AE196C757D00E125E1E /* Sources */,
+				BF67E1D529047947ABFCFBBAD3FBD033 /* Frameworks */,
+				AABE0964227719D404C3D733D0BEE802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEB5B5F6718161BC63264756D075AB5F /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftCGPathHitTesting";
+			productName = "Pods-SwiftCGPathHitTesting";
+			productReference = C67331C5F563984732C47AC2717D3D69 /* Pods_SwiftCGPathHitTesting.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0AD5A7FC39E7B824286420D79B9C0458 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				161E8ACDC0C940AF4EFB36E8BA6B82AC /* FPSCounter */,
+				5FC3FF1807D82DFDE931BB5990CFCB53 /* Pods-SwiftCGPathHitTesting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B502E4324961FCCCD6CFF65EE026271 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AABE0964227719D404C3D733D0BEE802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A5159CDCE475AE196C757D00E125E1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094404C9A488BA8FA9EC53F3258293E9 /* Pods-SwiftCGPathHitTesting-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D80418732B99B42BE72A48309250F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27CD06ADB9ADF6B15FCF78661D00F11 /* FPSCounter-dummy.m in Sources */,
+				8344F0B34A66A20330826FF589010999 /* FPSCounter.swift in Sources */,
+				C472BB5393B8F87D1B6E5E30BD28395C /* FPSStatusBarViewController.swift in Sources */,
+				9767AFE6C7BA83E3040DD604FBEEC82A /* FPSStatusBarWindow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEB5B5F6718161BC63264756D075AB5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FPSCounter;
+			target = 161E8ACDC0C940AF4EFB36E8BA6B82AC /* FPSCounter */;
+			targetProxy = 66BE355D18B8D7D514CB50F03F158B58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10086F7750E4D1CF3ED5F1E1B7ECA6DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B5D9068212E81955E3122028288B46F /* Pods-SwiftCGPathHitTesting.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftCGPathHitTesting/Pods-SwiftCGPathHitTesting-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftCGPathHitTesting/Pods-SwiftCGPathHitTesting.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3455EFED3682F11A9786783B6FF37CC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C282347F64D75150BE724157CDA2108 /* Pods-SwiftCGPathHitTesting.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftCGPathHitTesting/Pods-SwiftCGPathHitTesting-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftCGPathHitTesting/Pods-SwiftCGPathHitTesting.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4B7C6AAD9457557ED0768DFBD74159C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F1888CDE1A54585E7319F5B0BF10C83 /* FPSCounter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FPSCounter/FPSCounter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FPSCounter/FPSCounter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FPSCounter/FPSCounter.modulemap";
+				PRODUCT_MODULE_NAME = FPSCounter;
+				PRODUCT_NAME = FPSCounter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		865B41B59C1A0E283ECC008A2F89ADA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F1888CDE1A54585E7319F5B0BF10C83 /* FPSCounter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FPSCounter/FPSCounter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FPSCounter/FPSCounter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FPSCounter/FPSCounter.modulemap";
+				PRODUCT_MODULE_NAME = FPSCounter;
+				PRODUCT_NAME = FPSCounter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A27713CB74E99AF202AADC23200A32F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28746DF9BED521AC83AF03A3FCA5C935 /* Build configuration list for PBXNativeTarget "Pods-SwiftCGPathHitTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10086F7750E4D1CF3ED5F1E1B7ECA6DE /* Debug */,
+				3455EFED3682F11A9786783B6FF37CC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */,
+				A27713CB74E99AF202AADC23200A32F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7295B696CF2E2C6024E4AAFFA0537BD8 /* Build configuration list for PBXNativeTarget "FPSCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				865B41B59C1A0E283ECC008A2F89ADA9 /* Debug */,
+				4B7C6AAD9457557ED0768DFBD74159C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
